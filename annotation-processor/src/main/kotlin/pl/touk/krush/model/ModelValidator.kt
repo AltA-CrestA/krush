@@ -1,8 +1,8 @@
 package pl.touk.krush.model
 
 import com.squareup.kotlinpoet.metadata.KotlinPoetMetadataPreview
-import com.squareup.kotlinpoet.metadata.isData
 import com.squareup.kotlinpoet.metadata.toKmClass
+import kotlinx.metadata.isData
 import pl.touk.krush.model.ValidationResult.Error
 import pl.touk.krush.model.ValidationResult.Success
 import javax.lang.model.element.TypeElement

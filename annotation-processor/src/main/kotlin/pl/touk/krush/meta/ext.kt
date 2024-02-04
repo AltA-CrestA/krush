@@ -46,7 +46,7 @@ fun KmType.toModelType(): Type {
                 .split("/").let { Type(it.packageName(), it.last()) }
         }
         is KmClassifier.TypeAlias -> {
-            val noAbbreviatedType = KmType(flags).also {
+            val noAbbreviatedType = KmType().also {
                 it.classifier = this.classifier
                 it.abbreviatedType = null
             }

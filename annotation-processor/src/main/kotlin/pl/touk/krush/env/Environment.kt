@@ -1,7 +1,6 @@
 package pl.touk.krush.env
 
 import com.squareup.kotlinpoet.metadata.KotlinPoetMetadataPreview
-import com.squareup.kotlinpoet.metadata.isCompanionObject
 import com.squareup.kotlinpoet.metadata.toKmClass
 import pl.touk.krush.meta.toTypeElement
 import pl.touk.krush.meta.toVariableElement
@@ -69,7 +68,7 @@ class EnvironmentBuilder(private val roundEnv: RoundEnvironment, private val pro
 
     private fun Element.isCompanionObject(): Boolean =
         simpleName.toString() == "Companion" &&
-        toVariableElement().toTypeElement().toKmClass().isCompanionObject
+        toVariableElement().toTypeElement().toKmClass().companionObject.isNullOrBlank()
 
     private fun isColumn(element: Element): Boolean {
         return element.kind == ElementKind.FIELD &&
