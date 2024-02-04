@@ -1,6 +1,6 @@
 package pl.touk.krush.typealiases
 
-import javax.persistence.*
+import jakarta.persistence.*
 
 typealias VisitorList = List<String>
 typealias PlainString = String

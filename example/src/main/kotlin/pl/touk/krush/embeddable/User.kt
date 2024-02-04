@@ -1,6 +1,6 @@
 package pl.touk.krush.embeddable
 
-import javax.persistence.*
+import jakarta.persistence.*
 
 @Entity
 data class User(

@@ -14,7 +14,7 @@ import javax.lang.model.type.DeclaredType
 import javax.lang.model.type.TypeMirror
 import javax.lang.model.util.Elements
 import javax.lang.model.util.Types
-import javax.persistence.*
+import jakarta.persistence.*
 
 data class TypeEnvironment(
     val typeUtils: Types,

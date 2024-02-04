@@ -1,6 +1,6 @@
 package pl.touk.krush.result
 
-import javax.persistence.*
+import jakarta.persistence.*
 
 @Entity
 @Table(name = "RUNS")

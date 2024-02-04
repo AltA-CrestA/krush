@@ -1,6 +1,6 @@
 package pl.touk.krush.many2many
 
-import javax.persistence.*
+import jakarta.persistence.*
 
 @Entity
 @Table(name = "board")

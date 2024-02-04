@@ -2,7 +2,7 @@ package pl.touk.krush.many2many
 
 import pl.touk.krush.common.IdNotPersistedDelegate
 import pl.touk.krush.common.RefId
-import javax.persistence.*
+import jakarta.persistence.*
 
 @Entity
 @Table(name = "students")

@@ -4,8 +4,8 @@ import java.time.Instant
 import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.ZonedDateTime
-import javax.persistence.*
-import javax.persistence.EnumType.STRING
+import jakarta.persistence.*
+import jakarta.persistence.EnumType.STRING
 
 @Entity
 data class DefaultPropertyNameEntity(

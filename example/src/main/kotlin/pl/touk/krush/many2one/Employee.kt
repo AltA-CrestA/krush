@@ -1,6 +1,6 @@
 package pl.touk.krush.many2one
 
-import javax.persistence.*
+import jakarta.persistence.*
 
 @Embeddable
 data class EmployeeId(

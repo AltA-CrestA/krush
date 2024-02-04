@@ -1,13 +1,13 @@
 package pl.touk.krush.enumtype
 
-import javax.persistence.Embeddable
-import javax.persistence.Embedded
-import javax.persistence.Entity
-import javax.persistence.EnumType.ORDINAL
-import javax.persistence.EnumType.STRING
-import javax.persistence.Enumerated
-import javax.persistence.GeneratedValue
-import javax.persistence.Id
+import jakarta.persistence.Embeddable
+import jakarta.persistence.Embedded
+import jakarta.persistence.Entity
+import jakarta.persistence.EnumType.ORDINAL
+import jakarta.persistence.EnumType.STRING
+import jakarta.persistence.Enumerated
+import jakarta.persistence.GeneratedValue
+import jakarta.persistence.Id
 
 @Entity
 data class Message(

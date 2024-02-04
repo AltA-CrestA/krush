@@ -1,10 +1,10 @@
 package pl.touk.krush.embeddable
 
 import java.time.LocalDateTime
-import javax.persistence.Column
-import javax.persistence.Embeddable
-import javax.persistence.EmbeddedId
-import javax.persistence.Entity
+import jakarta.persistence.Column
+import jakarta.persistence.Embeddable
+import jakarta.persistence.EmbeddedId
+import jakarta.persistence.Entity
 
 @Embeddable
 data class RecordId(

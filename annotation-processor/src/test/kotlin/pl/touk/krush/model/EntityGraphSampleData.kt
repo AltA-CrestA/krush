@@ -10,9 +10,9 @@ import javax.lang.model.element.Name
 import javax.lang.model.element.TypeElement
 import javax.lang.model.element.VariableElement
 import javax.lang.model.util.Elements
-import javax.persistence.Column
-import javax.persistence.JoinColumn
-import javax.persistence.OneToOne
+import jakarta.persistence.Column
+import jakarta.persistence.JoinColumn
+import jakarta.persistence.OneToOne
 
 @KotlinPoetMetadataPreview
 interface EntityGraphSampleData {

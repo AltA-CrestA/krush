@@ -6,7 +6,7 @@ import pl.touk.krush.meta.isNullable
 import pl.touk.krush.meta.joinColumns
 import pl.touk.krush.meta.toTypeElement
 import pl.touk.krush.meta.toVariableElement
-import javax.persistence.OneToOne
+import jakarta.persistence.OneToOne
 
 class OneToOneProcessor(override val typeEnv: TypeEnvironment, private val annEnv: AnnotationEnvironment) : ElementProcessor {
 

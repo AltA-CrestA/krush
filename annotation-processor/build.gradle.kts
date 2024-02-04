@@ -12,7 +12,7 @@ dependencies {
     // needed until kotlipoet supports kotlin 1.8 directly
     implementation("org.jetbrains.kotlinx:kotlinx-metadata-jvm:${Versions.kotlinxMetadata}")
 
-    api("org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.2.Final")
+    api("jakarta.persistence:jakarta.persistence-api:3.2.0-M1")
 
     api(project(":runtime"))
 

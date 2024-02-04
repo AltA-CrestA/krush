@@ -1,9 +1,9 @@
 package pl.touk.krush.companion
 
-import javax.persistence.AttributeConverter
-import javax.persistence.Convert
-import javax.persistence.Entity
-import javax.persistence.Id
+import jakarta.persistence.AttributeConverter
+import jakarta.persistence.Convert
+import jakarta.persistence.Entity
+import jakarta.persistence.Id
 
 data class JobId(val id: Long = 0) {
 

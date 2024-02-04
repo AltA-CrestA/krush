@@ -1,6 +1,6 @@
 package pl.touk.krush.realreferences
 
-import javax.persistence.*
+import jakarta.persistence.*
 
 @Entity
 @Table(name = "category")

@@ -2,7 +2,7 @@ package pl.touk.krush.converter
 
 import pl.touk.krush.common.IdNotPersistedDelegate
 import pl.touk.krush.common.RefId
-import javax.persistence.*
+import jakarta.persistence.*
 
 @Entity
 data class Thread(

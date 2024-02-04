@@ -17,7 +17,7 @@ import pl.touk.krush.validation.EntityNotMappedException
 import javax.lang.model.element.*
 import javax.lang.model.type.DeclaredType
 import javax.lang.model.type.TypeMirror
-import javax.persistence.*
+import jakarta.persistence.*
 
 @KotlinPoetMetadataPreview
 class ColumnProcessor(override val typeEnv: TypeEnvironment, private val annEnv: AnnotationEnvironment) : ElementProcessor {

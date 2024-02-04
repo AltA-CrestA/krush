@@ -5,9 +5,9 @@ import pl.touk.krush.validation.MissingIdException
 import java.util.*
 import javax.lang.model.element.Name
 import javax.lang.model.element.TypeElement
-import javax.persistence.Column
-import javax.persistence.JoinColumn
-import javax.persistence.Table
+import jakarta.persistence.Column
+import jakarta.persistence.JoinColumn
+import jakarta.persistence.Table
 
 data class EntityDefinition(
     val type: TypeElement,

@@ -5,7 +5,7 @@ import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.ZonedDateTime
 import java.util.*
-import javax.persistence.*
+import jakarta.persistence.*
 
 @Entity
 data class Event(

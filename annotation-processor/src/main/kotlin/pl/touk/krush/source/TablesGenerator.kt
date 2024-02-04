@@ -13,7 +13,7 @@ import pl.touk.krush.meta.toClassName
 import pl.touk.krush.validation.*
 import javax.lang.model.element.Name
 import javax.lang.model.element.TypeElement
-import javax.persistence.JoinColumn
+import jakarta.persistence.JoinColumn
 
 @KotlinPoetMetadataPreview
 class TablesGenerator : SourceGenerator {

@@ -7,7 +7,7 @@ plugins {
 }
 
 dependencies {
-    api("org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.2")
+    api("jakarta.persistence:jakarta.persistence-api:3.2.0-M1")
 
     api(project(":runtime"))
     api(project(":runtime-postgresql"))
